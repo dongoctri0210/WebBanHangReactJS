@@ -1,0 +1,7 @@
+{
+    "data":[
+        {"name": "Trang chủ", "link": "/"},
+        {"name": "Sản phẩm", "link": "san-pham"},
+        {"name": "Liên hệ", "link": "lien-he"}
+    ]
+}

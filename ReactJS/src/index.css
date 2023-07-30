@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+h2{
+    position: relative;
+    color: red;
+}
+h2::before{
+    content: "";
+    height: 2px;
+    width: 50vw;
+    background-color: aqua;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: -3;
+}
+h2::after {
+    content: "";
+    height: 2px;
+    width: 50vw;
+    background-color:aqua;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: -2;
+}
+span{
+    background-color: white;
+    padding: 0 20px;
+}
+nav{
+    background: linear-gradient(aqua, pink);
+    font-size: 20px;
+}
+footer{
+    margin-top: 3px;
+    background: linear-gradient(aqua, pink);
+    color: blue;
+}
+footer h1 {
+    color: blue;
+    text-align: center;
+    box-shadow: 0 3px red;
+}
+p{
+    font-size: 20px;
+}
+h4{
+    color: red;
+}
+.ha{
+    font-size: 20px;
+    text-decoration: none;
+}
